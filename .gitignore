@@ -2,3 +2,4 @@ node_modules/
 .sessions/
 *.jsonl
 .pi/
+.pi-exports/
