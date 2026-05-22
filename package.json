@@ -1,0 +1,16 @@
+{
+  "name": "pi-session-exporter",
+  "version": "1.0.0",
+  "description": "Export Pi session history as clean Markdown for sharing in PRs, issues, docs, and Slack",
+  "keywords": ["pi-package", "pi-extension", "pi-command", "session", "export", "markdown", "sharing"],
+  "author": { "name": "Jay Rathod", "url": "https://github.com/Jaraxxxx" },
+  "repository": { "type": "git", "url": "https://github.com/Jaraxxxx/pi-session-exporter" },
+  "license": "MIT",
+  "type": "module",
+  "pi": { "extensions": ["./index.ts"] },
+  "peerDependencies": {
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  }
+}
